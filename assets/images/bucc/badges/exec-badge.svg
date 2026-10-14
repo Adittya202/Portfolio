@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="execGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f1c"/>
+      <stop offset="100%" stop-color="#f77f00"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagon Badge -->
+  <polygon points="50,6 88,28 88,72 50,94 12,72 12,28" fill="#14142b" stroke="url(#execGrad)" stroke-width="3.5"/>
+  <polygon points="50,14 80,32 80,68 50,86 20,68 20,32" fill="#241432" stroke="#ffbf69" stroke-width="1.5" opacity="0.6"/>
+  <!-- Chevrons -->
+  <path d="M 38,36 L 50,46 L 62,36" fill="none" stroke="url(#execGrad)" stroke-width="3" stroke-linecap="round"/>
+  <text x="50" y="60" font-family="'Orbitron', sans-serif" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">EXEC</text>
+  <text x="50" y="72" font-family="'Rajdhani', sans-serif" font-size="8" font-weight="700" fill="#ffbf69" text-anchor="middle">OFFICER</text>
+</svg>

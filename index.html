@@ -91,7 +91,56 @@
         <!-- Project grid -->
         <div class="project-grid">
 
-          <!-- Card 1 — Global Credit Transfer Portal -->
+          <!-- Card 1 (Featured) — BUCC Dino Runner & Boss Shooter Web Game -->
+          <article class="project-card project-card--featured reveal-card" id="project-bucc-game">
+            <div class="card-top-row">
+              <div class="card-icon-wrap" style="--icon-glow: rgba(0, 240, 255, 0.25);">
+                <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M24 4L38 10V22C38 31.5 24 42 24 42C24 42 10 31.5 10 22V10L24 4Z" stroke="url(#icon-grad-bucc)" stroke-width="1.8" opacity="0.6"/>
+                  <circle cx="24" cy="22" r="9" stroke="url(#icon-grad-bucc)" stroke-width="1.5" stroke-dasharray="3 3"/>
+                  <circle cx="24" cy="22" r="3" fill="url(#icon-grad-bucc)"/>
+                  <path d="M24 10V16M24 28V34M12 22H18M30 22H36" stroke="url(#icon-grad-bucc)" stroke-width="1.6" stroke-linecap="round"/>
+                  <path d="M17 15L31 29M31 15L17 29" stroke="url(#icon-grad-bucc)" stroke-width="1.2" opacity="0.4" stroke-linecap="round"/>
+                  <defs>
+                    <linearGradient id="icon-grad-bucc" x1="6" y1="4" x2="42" y2="42">
+                      <stop stop-color="#00f0ff"/>
+                      <stop offset="0.5" stop-color="#ffd166"/>
+                      <stop offset="1" stop-color="#ff0055"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <span class="card-featured-pill">
+                <span class="pill-dot"></span>
+                Featured Game
+              </span>
+            </div>
+            <h3 class="card-title">BUCC Dino Runner &amp; Boss Shooter</h3>
+            <p class="card-desc">Arcade platformer &amp; boss shooter themed around the BRAC University Computer Club promotional hierarchy. Climb from General Member to Governing Body President across 5 stages with Canvas 2D physics, procedural Web Audio synth, weapon armory, and bullet-hell duels.</p>
+            <div class="card-stack">
+              <span class="stack-tag" style="--tag-color: #00f0ff;">HTML5 Canvas</span>
+              <span class="stack-tag" style="--tag-color: #ffd166;">JavaScript (ES6+)</span>
+              <span class="stack-tag" style="--tag-color: #e040fb;">Web Audio API</span>
+              <span class="stack-tag" style="--tag-color: #06d6a0;">Arcade Physics</span>
+              <span class="stack-tag" style="--tag-color: #4361ee;">PHP / LocalStorage</span>
+            </div>
+            <div class="card-actions">
+              <button type="button" class="btn-card-details" data-modal-target="modal-bucc-game" id="btn-details-bucc" aria-haspopup="dialog">
+                <span>Game Intel &amp; Lore</span>
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M8 3.5v9M3.5 8h9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </button>
+              <a href="https://github.com/Adittya202/BUCC_Promotion_Game" target="_blank" rel="noopener noreferrer" class="card-link" id="link-bucc-game">
+                <span>View Repo</span>
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2 — Global Credit Transfer Portal -->
           <article class="project-card reveal-card" id="project-credit-portal">
             <div class="card-icon-wrap">
               <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -116,50 +165,25 @@
             </a>
           </article>
 
-          <!-- Card 2 — Myntra Web Clone -->
-          <article class="project-card reveal-card" id="project-myntra-clone">
+          <!-- Card 3 — BUCC FootballVerse AI -->
+          <article class="project-card reveal-card" id="project-footballverse">
             <div class="card-icon-wrap">
               <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect x="8" y="6" width="32" height="36" rx="4" stroke="url(#icon-grad-2)" stroke-width="1.5" opacity="0.35"/>
-                <rect x="14" y="14" width="20" height="12" rx="2" stroke="url(#icon-grad-2)" stroke-width="1.5"/>
-                <path d="M14 32h8M26 32h6" stroke="url(#icon-grad-2)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-                <circle cx="24" cy="20" r="3" fill="url(#icon-grad-2)" opacity="0.7"/>
-                <defs><linearGradient id="icon-grad-2" x1="8" y1="6" x2="40" y2="42"><stop stop-color="#e040fb"/><stop offset="1" stop-color="#00e5ff"/></linearGradient></defs>
+                <rect x="8" y="10" width="32" height="28" rx="4" stroke="url(#icon-grad-5)" stroke-width="1.5" opacity="0.35"/>
+                <path d="M24 10v28M8 24h32" stroke="url(#icon-grad-5)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 4"/>
+                <circle cx="24" cy="24" r="6" stroke="url(#icon-grad-5)" stroke-width="1.5"/>
+                <circle cx="24" cy="24" r="2" fill="url(#icon-grad-5)"/>
+                <defs><linearGradient id="icon-grad-5" x1="8" y1="10" x2="40" y2="38"><stop stop-color="#ff0033"/><stop offset="1" stop-color="#ff9100"/></linearGradient></defs>
               </svg>
             </div>
-            <h3 class="card-title">Myntra Web Clone</h3>
-            <p class="card-desc">Pixel-perfect recreation of the Myntra e-commerce interface with fully responsive layouts, dynamic product grids, and mobile-first navigation patterns.</p>
+            <h3 class="card-title">BUCC FootballVerse AI</h3>
+            <p class="card-desc">Advanced AI-driven football simulation platform featuring interactive Coach Mode. Includes robust backend guards and a dynamic live match timeline.</p>
             <div class="card-stack">
-              <span class="stack-tag" style="--tag-color: #ff9100;">HTML5</span>
-              <span class="stack-tag" style="--tag-color: #00e5ff;">CSS Flexbox</span>
-              <span class="stack-tag" style="--tag-color: #e040fb;">Responsive</span>
+              <span class="stack-tag" style="--tag-color: #ff0033;">AI Simulation</span>
+              <span class="stack-tag" style="--tag-color: #ff9100;">React</span>
+              <span class="stack-tag" style="--tag-color: #00e5ff;">Node.js</span>
             </div>
-            <a href="https://github.com/Adittya202/Css-Learning" target="_blank" rel="noopener noreferrer" class="card-link" id="link-myntra-clone">
-              <span>View Project</span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-          </article>
-
-          <!-- Card 3 — Simple Note Manager -->
-          <article class="project-card reveal-card" id="project-note-manager">
-            <div class="card-icon-wrap">
-              <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect x="10" y="8" width="28" height="32" rx="3" stroke="url(#icon-grad-3)" stroke-width="1.5" opacity="0.35"/>
-                <path d="M16 18h16M16 24h12M16 30h8" stroke="url(#icon-grad-3)" stroke-width="1.5" stroke-linecap="round"/>
-                <path d="M30 32l6-6v-2l-6 6v2z" fill="url(#icon-grad-3)" opacity="0.7"/>
-                <circle cx="36" cy="12" r="4" fill="url(#icon-grad-3)" opacity="0.5"/>
-                <defs><linearGradient id="icon-grad-3" x1="10" y1="8" x2="38" y2="40"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#69f0ae"/></linearGradient></defs>
-              </svg>
-            </div>
-            <h3 class="card-title">Simple Note Manager</h3>
-            <p class="card-desc">Full-stack CRUD application for organizing notes with real-time updates, RESTful API design, and a clean, distraction-free writing interface.</p>
-            <div class="card-stack">
-              <span class="stack-tag" style="--tag-color: #69f0ae;">MongoDB</span>
-              <span class="stack-tag" style="--tag-color: #00e5ff;">Express</span>
-              <span class="stack-tag" style="--tag-color: #42a5f5;">React</span>
-              <span class="stack-tag" style="--tag-color: #66bb6a;">Node.js</span>
-            </div>
-            <a href="https://github.com/Adittya202/Node-js" target="_blank" rel="noopener noreferrer" class="card-link" id="link-note-manager">
+            <a href="https://github.com/Adittya202/bucc_FootballVerseAI" target="_blank" rel="noopener noreferrer" class="card-link" id="link-footballverse">
               <span>View Project</span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -190,25 +214,50 @@
             </a>
           </article>
 
-          <!-- Card 5 — BUCC FootballVerse AI -->
-          <article class="project-card reveal-card" id="project-footballverse">
+          <!-- Card 5 — Simple Note Manager -->
+          <article class="project-card reveal-card" id="project-note-manager">
             <div class="card-icon-wrap">
               <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect x="8" y="10" width="32" height="28" rx="4" stroke="url(#icon-grad-5)" stroke-width="1.5" opacity="0.35"/>
-                <path d="M24 10v28M8 24h32" stroke="url(#icon-grad-5)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 4"/>
-                <circle cx="24" cy="24" r="6" stroke="url(#icon-grad-5)" stroke-width="1.5"/>
-                <circle cx="24" cy="24" r="2" fill="url(#icon-grad-5)"/>
-                <defs><linearGradient id="icon-grad-5" x1="8" y1="10" x2="40" y2="38"><stop stop-color="#ff0033"/><stop offset="1" stop-color="#ff9100"/></linearGradient></defs>
+                <rect x="10" y="8" width="28" height="32" rx="3" stroke="url(#icon-grad-3)" stroke-width="1.5" opacity="0.35"/>
+                <path d="M16 18h16M16 24h12M16 30h8" stroke="url(#icon-grad-3)" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M30 32l6-6v-2l-6 6v2z" fill="url(#icon-grad-3)" opacity="0.7"/>
+                <circle cx="36" cy="12" r="4" fill="url(#icon-grad-3)" opacity="0.5"/>
+                <defs><linearGradient id="icon-grad-3" x1="10" y1="8" x2="38" y2="40"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#69f0ae"/></linearGradient></defs>
               </svg>
             </div>
-            <h3 class="card-title">BUCC FootballVerse AI</h3>
-            <p class="card-desc">Advanced AI-driven football simulation platform featuring interactive Coach Mode. Includes robust backend guards and a dynamic live match timeline.</p>
+            <h3 class="card-title">Simple Note Manager</h3>
+            <p class="card-desc">Full-stack CRUD application for organizing notes with real-time updates, RESTful API design, and a clean, distraction-free writing interface.</p>
             <div class="card-stack">
-              <span class="stack-tag" style="--tag-color: #ff0033;">AI Simulation</span>
-              <span class="stack-tag" style="--tag-color: #ff9100;">React</span>
-              <span class="stack-tag" style="--tag-color: #00e5ff;">Node.js</span>
+              <span class="stack-tag" style="--tag-color: #69f0ae;">MongoDB</span>
+              <span class="stack-tag" style="--tag-color: #00e5ff;">Express</span>
+              <span class="stack-tag" style="--tag-color: #42a5f5;">React</span>
+              <span class="stack-tag" style="--tag-color: #66bb6a;">Node.js</span>
             </div>
-            <a href="https://github.com/Adittya202/bucc_FootballVerseAI" target="_blank" rel="noopener noreferrer" class="card-link" id="link-footballverse">
+            <a href="https://github.com/Adittya202/Node-js" target="_blank" rel="noopener noreferrer" class="card-link" id="link-note-manager">
+              <span>View Project</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </article>
+
+          <!-- Card 6 — Myntra Web Clone -->
+          <article class="project-card reveal-card" id="project-myntra-clone">
+            <div class="card-icon-wrap">
+              <svg class="card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="8" y="6" width="32" height="36" rx="4" stroke="url(#icon-grad-2)" stroke-width="1.5" opacity="0.35"/>
+                <rect x="14" y="14" width="20" height="12" rx="2" stroke="url(#icon-grad-2)" stroke-width="1.5"/>
+                <path d="M14 32h8M26 32h6" stroke="url(#icon-grad-2)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+                <circle cx="24" cy="20" r="3" fill="url(#icon-grad-2)" opacity="0.7"/>
+                <defs><linearGradient id="icon-grad-2" x1="8" y1="6" x2="40" y2="42"><stop stop-color="#e040fb"/><stop offset="1" stop-color="#00e5ff"/></linearGradient></defs>
+              </svg>
+            </div>
+            <h3 class="card-title">Myntra Web Clone</h3>
+            <p class="card-desc">Pixel-perfect recreation of the Myntra e-commerce interface with fully responsive layouts, dynamic product grids, and mobile-first navigation patterns.</p>
+            <div class="card-stack">
+              <span class="stack-tag" style="--tag-color: #ff9100;">HTML5</span>
+              <span class="stack-tag" style="--tag-color: #00e5ff;">CSS Flexbox</span>
+              <span class="stack-tag" style="--tag-color: #e040fb;">Responsive</span>
+            </div>
+            <a href="https://github.com/Adittya202/Css-Learning" target="_blank" rel="noopener noreferrer" class="card-link" id="link-myntra-clone">
               <span>View Project</span>
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -439,6 +488,335 @@
       </div>
     </div>
   </footer>
+
+  <!-- ═══════════════════ PROJECT DETAILS MODAL: BUCC PROMOTION GAME ═══════════════════ -->
+  <div id="modal-bucc-game" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-bucc-title" hidden>
+    <div class="modal-container">
+      
+      <!-- Modal Header -->
+      <header class="modal-header">
+        <div class="modal-header-info">
+          <div class="modal-bucc-emblem">
+            <img src="assets/images/bucc/bucc-logo.svg" alt="BUCC Crest Emblem" width="46" height="46" />
+          </div>
+          <div class="modal-title-group">
+            <h2 id="modal-bucc-title">
+              <span>BUCC Dino Runner &amp; Boss Shooter</span>
+              <span class="card-featured-pill"><span class="pill-dot"></span>Official Game</span>
+            </h2>
+            <p>BRAC University Computer Club — Promotional Hierarchy Web Game</p>
+          </div>
+        </div>
+        <button type="button" class="modal-close-btn" data-modal-close aria-label="Close project intel">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </header>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+
+        <!-- Quick Spec Chips -->
+        <div class="intel-chips-row">
+          <span class="intel-chip intel-chip--cyan">HTML5 Canvas 2D</span>
+          <span class="intel-chip intel-chip--magenta">Web Audio Procedural Synth</span>
+          <span class="intel-chip intel-chip--gold">5 Promotional Stages</span>
+          <span class="intel-chip">7 BUCC Departments</span>
+          <span class="intel-chip">14 Senior Executives</span>
+          <span class="intel-chip">7 EB Directors</span>
+          <span class="intel-chip intel-chip--magenta">4 Simultaneous Apex Bosses</span>
+          <span class="intel-chip intel-chip--cyan">Zero External Dependencies</span>
+          <span class="intel-chip">PHP REST &amp; LocalStorage Fallback</span>
+        </div>
+
+        <!-- Section 1: Overview & Story -->
+        <section class="modal-section">
+          <h3 class="modal-section-title">The Premise &amp; Club Lore</h3>
+          <p class="modal-prose">
+            Step into the official promotion trials of the <strong>BRAC University Computer Club (BUCC)</strong>. Starting as a humble <strong>General Member (GM)</strong>, players must run through campus hallways, dodge department peers, deflect high-velocity suppression rounds with a holographic energy shield, spend earned coins at the Promotion Weapon Store, and survive arena duels against real club executives to claim supreme leadership as <strong>Governing Body President</strong>!
+          </p>
+        </section>
+
+        <!-- Section 2: 5-Stage Promotional Gauntlet -->
+        <section class="modal-section">
+          <h3 class="modal-section-title">5-Stage Promotional Gauntlet</h3>
+          <div class="stages-list">
+
+            <!-- Stage 1 -->
+            <div class="stage-item">
+              <div class="stage-badge-col">
+                <img src="assets/images/bucc/badges/gm-badge.svg" alt="GM Rank Badge" class="stage-badge-img" />
+                <span class="stage-badge-tag">Stage 1</span>
+              </div>
+              <div class="stage-content">
+                <div class="stage-head">
+                  <h4 class="stage-title">GM to Executive — Classic Endless Runner Trials</h4>
+                  <span class="stage-alert">"General Members are coming"</span>
+                </div>
+                <p class="stage-desc">
+                  Play as a <strong class="stage-highlight">General Member (GM)</strong>. Rightward auto-runner mechanics requiring timed jumps (<span class="keycap">Spacebar</span> / <span class="keycap">↑</span> / Click) to leap over <strong>7 consecutive department enemies</strong> (<em>C&amp;M, Creative, Event Management, Finance, PR, HR, and R&amp;D</em>) with department banners displayed above their heads. Dodge all 7 to earn promotion.
+                </p>
+              </div>
+            </div>
+
+            <!-- Stage 2 -->
+            <div class="stage-item">
+              <div class="stage-badge-col">
+                <img src="assets/images/bucc/badges/exec-badge.svg" alt="Executive Rank Badge" class="stage-badge-img" />
+                <span class="stage-badge-tag">Stage 2</span>
+              </div>
+              <div class="stage-content">
+                <div class="stage-head">
+                  <h4 class="stage-title">Executive to Senior Executive — Suppression Gauntlet</h4>
+                  <span class="stage-alert">"Executives are coming"</span>
+                </div>
+                <p class="stage-desc">
+                  Promoted to <strong class="stage-highlight">Executive</strong>. 7 department executives storm the field firing high-velocity suppression rounds. Players must hold <span class="keycap">Right Click</span> to deploy the <strong>Holographic Shield</strong> and deflect incoming projectile barrages. Surviving unlocks the Promotion Weapon Store.
+                </p>
+              </div>
+            </div>
+
+            <!-- Stage 3 -->
+            <div class="stage-item">
+              <div class="stage-badge-col">
+                <img src="assets/images/bucc/badges/sr-exec-badge.svg" alt="Senior Executive Rank Badge" class="stage-badge-img" />
+                <span class="stage-badge-tag">Stage 3</span>
+              </div>
+              <div class="stage-content">
+                <div class="stage-head">
+                  <h4 class="stage-title">Senior Executive Arena Duel — 14 Departmental Executives</h4>
+                  <span class="stage-alert">"Senior executives are coming"</span>
+                </div>
+                <p class="stage-desc">
+                  Ranked as <strong class="stage-highlight">Senior Executive</strong>. Transition into full 2D Arena Combat with omnidirectional aiming and tactical movement. Fight through 14 real BUCC Senior Executives (2 per department) with dynamic overhead name plates across all 7 departments:
+                  <br />
+                  <span style="color: rgba(232, 234, 255, 0.85); font-size: 0.78rem; display: block; margin-top: 4px;">
+                    • <strong>C&amp;M:</strong> Md. Ishtiaq Mozumder, S.M.Abrar Shaleheen &nbsp;|&nbsp; <strong>Creative:</strong> MD. Mushfiqur Rahman, Mahajabin Islam<br />
+                    • <strong>Event Management:</strong> Fahim Faysal, Fahim Al Razy &nbsp;|&nbsp; <strong>Finance:</strong> Arnab, Raisa<br />
+                    • <strong>PR:</strong> Tanisha, Shovon Pr &nbsp;|&nbsp; <strong>HR:</strong> Adittya, Subrajit &nbsp;|&nbsp; <strong>R&amp;D:</strong> Mahir Dyan, Siam Ferdous
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Stage 4 -->
+            <div class="stage-item">
+              <div class="stage-badge-col">
+                <img src="assets/images/bucc/badges/eb-badge.svg" alt="Executive Board Rank Badge" class="stage-badge-img" />
+                <span class="stage-badge-tag">Stage 4</span>
+              </div>
+              <div class="stage-content">
+                <div class="stage-head">
+                  <h4 class="stage-title">Executive Board Trial — 7 EB Directors</h4>
+                  <span class="stage-alert">"Executive Board Members are coming"</span>
+                </div>
+                <p class="stage-desc">
+                  Earn promotion to <strong class="stage-highlight">Executive Board (EB)</strong>. Confront the 7 Directorate leaders of BUCC entering in succession: <strong>Zawad Bhai</strong> (C&amp;M), <strong>Luban Bhai</strong> (Creative), <strong>Rafi Bhai</strong> (Event Management), <strong>Rawnak Bhai</strong> (Finance), <strong>Kabya Apu</strong> (HR), <strong>Anika Apu</strong> (PR), and <strong>Abir Bhai</strong> (R&amp;D). Defeating all 7 qualifies for Governing Body trials.
+                </p>
+              </div>
+            </div>
+
+            <!-- Stage 5 -->
+            <div class="stage-item">
+              <div class="stage-badge-col">
+                <img src="assets/images/bucc/badges/gb-badge.svg" alt="Governing Body Rank Badge" class="stage-badge-img" />
+                <span class="stage-badge-tag">Stage 5</span>
+              </div>
+              <div class="stage-content">
+                <div class="stage-head">
+                  <h4 class="stage-title">The Final Stand — Simultaneous 4-Boss Governing Body Battle</h4>
+                  <span class="stage-alert">"All four Governing Body members will come together"</span>
+                </div>
+                <p class="stage-desc">
+                  As <strong class="stage-highlight">Executive Board Champion</strong>, engage all 4 apex leaders fighting simultaneously with distinct bullet-hell mechanics. Eliminate all four to win the game and ascend to <strong>Governing Body President</strong>!
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Section 3: Weapon Armory (The Promotion Store) -->
+        <section class="modal-section">
+          <h3 class="modal-section-title">The Promotion Armory &amp; Weapon Store</h3>
+          <p class="modal-prose">
+            Between stages, spend coins collected during runs to equip heavy weaponry calibrated with unique projectile speeds, cooldowns, and damage outputs:
+          </p>
+          <div class="weapons-grid">
+            <div class="weapon-card">
+              <div class="weapon-icon-wrap">
+                <img src="assets/images/bucc/weapons/pistol.svg" alt="Standard Pistol Vector" />
+              </div>
+              <h4 class="weapon-name">Standard Pistol</h4>
+              <span class="weapon-cost">Default Weapon (Free)</span>
+              <div class="weapon-stats">
+                <div class="stat-row"><span>Damage:</span><strong>16 DMG</strong></div>
+                <div class="stat-row"><span>Cooldown:</span><strong>0.50s</strong></div>
+                <div class="stat-row"><span>Velocity:</span><strong>720 px/s</strong></div>
+              </div>
+            </div>
+            <div class="weapon-card">
+              <div class="weapon-icon-wrap">
+                <img src="assets/images/bucc/weapons/blaster.svg" alt="Rapid Blaster Vector" />
+              </div>
+              <h4 class="weapon-name">Rapid Blaster</h4>
+              <span class="weapon-cost" style="color: #00f0ff;">50 Coins Required</span>
+              <div class="weapon-stats">
+                <div class="stat-row"><span>Damage:</span><strong>26 DMG</strong></div>
+                <div class="stat-row"><span>Cooldown:</span><strong>0.35s (Rapid)</strong></div>
+                <div class="stat-row"><span>Velocity:</span><strong>950 px/s (High)</strong></div>
+              </div>
+            </div>
+            <div class="weapon-card">
+              <div class="weapon-icon-wrap">
+                <img src="assets/images/bucc/weapons/cannon.svg" alt="Heavy Cannon Vector" />
+              </div>
+              <h4 class="weapon-name">Heavy Cannon</h4>
+              <span class="weapon-cost" style="color: #ff007f;">90 Coins Required</span>
+              <div class="weapon-stats">
+                <div class="stat-row"><span>Damage:</span><strong>60 DMG (Heavy)</strong></div>
+                <div class="stat-row"><span>Cooldown:</span><strong>0.50s</strong></div>
+                <div class="stat-row"><span>Velocity:</span><strong>680 px/s</strong></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 4: Apex Boss Profiles -->
+        <section class="modal-section">
+          <h3 class="modal-section-title">Apex Boss Squad: The Governing Body (GB)</h3>
+          <div class="boss-grid">
+            <div class="boss-card">
+              <div class="boss-title-row">
+                <h4 class="boss-name">Jauad Ahmed Sadik</h4>
+                <span class="boss-role">President</span>
+              </div>
+              <p class="boss-attack">
+                <strong>Attack Pattern:</strong> Colossal HP pool, unleashing high-frequency 3-way spread energy bursts that saturate the battlefield.
+              </p>
+            </div>
+            <div class="boss-card">
+              <div class="boss-title-row">
+                <h4 class="boss-name">Shudeepta Roy Mou</h4>
+                <span class="boss-role">Vice President</span>
+              </div>
+              <p class="boss-attack">
+                <strong>Attack Pattern:</strong> Precision tactical attacks utilizing dual high-velocity focused laser pulses aimed directly at the player.
+              </p>
+            </div>
+            <div class="boss-card">
+              <div class="boss-title-row">
+                <h4 class="boss-name">G M JUBAYER ZAMAN</h4>
+                <span class="boss-role">General Secretary</span>
+              </div>
+              <p class="boss-attack">
+                <strong>Attack Pattern:</strong> Area-denial specialist discharging kinetic bouncing energy orbs that ricochet off arena boundaries.
+              </p>
+            </div>
+            <div class="boss-card">
+              <div class="boss-title-row">
+                <h4 class="boss-name">Syed Adnan Rahman</h4>
+                <span class="boss-role">Treasurer</span>
+              </div>
+              <p class="boss-attack">
+                <strong>Attack Pattern:</strong> Heavy projectile barrage raining lethal multi-angle cluster coin spreads across ground and aerial zones.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 5: Controls Reference -->
+        <section class="modal-section">
+          <h3 class="modal-section-title">Controls &amp; Keybindings Guide</h3>
+          <div class="controls-wrap">
+            <table class="controls-table">
+              <thead>
+                <tr>
+                  <th>Action</th>
+                  <th>Runner Stages (Level 1 &amp; 2)</th>
+                  <th>Arena Combat (Level 3 &amp; 4 &amp; 5)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Jump / Dodge</strong></td>
+                  <td><span class="keycap">Spacebar</span> / <span class="keycap">↑</span> / Click / Touch</td>
+                  <td><span class="keycap">Spacebar</span> / <span class="keycap">↑</span> / Touch</td>
+                </tr>
+                <tr>
+                  <td><strong>Tactical Movement</strong></td>
+                  <td>Auto-running rightward</td>
+                  <td><span class="keycap">A</span> / <span class="keycap">D</span> or <span class="keycap">←</span> / <span class="keycap">→</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Aiming</strong></td>
+                  <td>N/A</td>
+                  <td>360° Mouse Cursor Tracking</td>
+                </tr>
+                <tr>
+                  <td><strong>Fire Weapon</strong></td>
+                  <td>N/A</td>
+                  <td><span class="keycap">Left Click</span> or <span class="keycap">F</span> Key</td>
+                </tr>
+                <tr>
+                  <td><strong>Holographic Shield</strong></td>
+                  <td><span class="keycap">Right Click</span> (Hold to Block)</td>
+                  <td>Available for emergency deflections</td>
+                </tr>
+                <tr>
+                  <td><strong>Audio &amp; Mute</strong></td>
+                  <td colspan="2">Instant Header Toggle Button (Procedural synthesizer fail-safe included)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Section 6: Technical Architecture -->
+        <section class="modal-section">
+          <h3 class="modal-section-title">Technical Architecture &amp; Engine Specifications</h3>
+          <div class="engine-grid">
+            <div class="engine-card">
+              <h4>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                Procedural Canvas 2D
+              </h4>
+              <p>60 FPS requestAnimationFrame loop, custom AABB &amp; radial collision algorithms, camera screen-shake, multi-layer parallax campus skyline, and real-time particle emitters.</p>
+            </div>
+            <div class="engine-card">
+              <h4>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e040fb" stroke-width="2"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+                Procedural Web Audio
+              </h4>
+              <p>Integrated Web Audio frequency oscillator generates all jump whooshes, laser beams, shield hits, coin chimes, and chiptune synth music with zero external audio dependencies required.</p>
+            </div>
+            <div class="engine-card">
+              <h4>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffd166" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                Dual Persistence
+              </h4>
+              <p>Lightweight PHP backend with CSRF token validation and session security for high scores, with automated client-side <code>localStorage</code> fallback for 100% serverless static preview.</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <footer class="modal-footer">
+        <button type="button" class="btn-modal-ghost" data-modal-close>Close Intel</button>
+        <a href="https://github.com/Adittya202/BUCC_Promotion_Game" target="_blank" rel="noopener noreferrer" class="btn-modal-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+          <span>View on GitHub</span>
+        </a>
+      </footer>
+
+    </div>
+  </div>
 
   <script src="main.js"></script>
 </body>

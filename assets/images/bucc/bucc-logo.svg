@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="50%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#0077b6"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe494"/>
+      <stop offset="100%" stop-color="#ffb703"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Ring with circuit notches -->
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-dasharray="14 6" opacity="0.8"/>
+  <circle cx="100" cy="100" r="86" fill="url(#shieldGrad)" stroke="#00f0ff" stroke-width="2"/>
+
+  <!-- Shield Base -->
+  <path d="M 60,50 L 140,50 Q 148,105 100,148 Q 52,105 60,50 Z" fill="#0b132b" stroke="url(#goldGrad)" stroke-width="3" filter="url(#neonGlow)"/>
+
+  <!-- Circuit lines -->
+  <path d="M 75,70 L 95,70 L 105,85 L 125,85" fill="none" stroke="#00f0ff" stroke-width="2" opacity="0.7"/>
+  <circle cx="75" cy="70" r="3" fill="#00f0ff"/>
+  <circle cx="125" cy="85" r="3" fill="#00f0ff"/>
+
+  <!-- Binary Accent -->
+  <text x="100" y="65" font-family="'Courier New', monospace" font-size="8" font-weight="bold" fill="#00f0ff" text-anchor="middle" letter-spacing="2" opacity="0.7">01000010</text>
+
+  <!-- BUCC Monogram -->
+  <text x="100" y="112" font-family="'Orbitron', 'Rajdhani', sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="1">BUCC</text>
+  <text x="100" y="126" font-family="'Rajdhani', sans-serif" font-size="9" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="2">BRAC UNIVERSITY</text>
+
+  <!-- Star node -->
+  <polygon points="100,132 103,139 110,139 104,143 106,150 100,146 94,150 96,143 90,139 97,139" fill="url(#goldGrad)"/>
+</svg>

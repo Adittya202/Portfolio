@@ -118,4 +118,62 @@
     revealCards.forEach(card => observer.observe(card));
   }
 
+  // ── Project Details Modal ──
+  const modalTriggers = document.querySelectorAll('[data-modal-target]');
+  const modalCloses   = document.querySelectorAll('[data-modal-close]');
+  const activeModals  = document.querySelectorAll('.modal-overlay');
+
+  function openModal(modalId) {
+    const modal = document.getElementById(modalId);
+    if (!modal) return;
+    modal.removeAttribute('hidden');
+    void modal.offsetWidth; // trigger reflow for smooth animation
+    modal.classList.add('modal-active');
+    document.body.classList.add('modal-open');
+    const closeBtn = modal.querySelector('.modal-close-btn');
+    if (closeBtn) closeBtn.focus();
+  }
+
+  function closeModal(modal) {
+    if (!modal) return;
+    modal.classList.remove('modal-active');
+    document.body.classList.remove('modal-open');
+    setTimeout(() => {
+      if (!modal.classList.contains('modal-active')) {
+        modal.setAttribute('hidden', '');
+      }
+    }, 320);
+  }
+
+  modalTriggers.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = btn.getAttribute('data-modal-target');
+      if (targetId) openModal(targetId);
+    });
+  });
+
+  modalCloses.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const modal = btn.closest('.modal-overlay');
+      closeModal(modal);
+    });
+  });
+
+  activeModals.forEach(modal => {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        closeModal(modal);
+      }
+    });
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const openModalEl = document.querySelector('.modal-overlay.modal-active');
+      if (openModalEl) closeModal(openModalEl);
+    }
+  });
+
 })();

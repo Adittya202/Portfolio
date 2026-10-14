@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="ebGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4cc9f0"/>
+      <stop offset="50%" stop-color="#7209b7"/>
+      <stop offset="100%" stop-color="#f72585"/>
+    </linearGradient>
+  </defs>
+  <!-- Diamond Crest -->
+  <polygon points="50,4 96,50 50,96 4,50" fill="#0b132b" stroke="url(#ebGrad)" stroke-width="4"/>
+  <polygon points="50,14 86,50 50,86 14,50" fill="#1c2541" stroke="#4cc9f0" stroke-width="1.5" opacity="0.7"/>
+  <!-- Winged Chevron -->
+  <polygon points="50,30 65,45 60,48 50,40 40,48 35,45" fill="#4cc9f0"/>
+  <text x="50" y="58" font-family="'Orbitron', sans-serif" font-size="16" font-weight="900" fill="#ffffff" text-anchor="middle">EB</text>
+  <text x="50" y="70" font-family="'Rajdhani', sans-serif" font-size="7.5" font-weight="700" fill="#4cc9f0" text-anchor="middle" letter-spacing="1">EXEC BOARD</text>
+</svg>

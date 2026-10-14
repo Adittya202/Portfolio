@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gbGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="40%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#e09f3e"/>
+    </linearGradient>
+    <linearGradient id="gbRuby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9e2a2b"/>
+      <stop offset="100%" stop-color="#540b0e"/>
+    </linearGradient>
+  </defs>
+  <!-- Crown Star Crest -->
+  <circle cx="50" cy="50" r="46" fill="url(#gbRuby)" stroke="url(#gbGold)" stroke-width="4"/>
+  <circle cx="50" cy="50" r="39" fill="#03071e" stroke="#ffd166" stroke-width="1.5" stroke-dasharray="8 4"/>
+  <!-- Crown Icon -->
+  <polygon points="32,40 38,48 50,34 62,48 68,40 66,54 34,54" fill="url(#gbGold)"/>
+  <circle cx="32" cy="38" r="2.5" fill="#ffffff"/>
+  <circle cx="50" cy="32" r="3" fill="#ffffff"/>
+  <circle cx="68" cy="38" r="2.5" fill="#ffffff"/>
+  <text x="50" y="68" font-family="'Orbitron', sans-serif" font-size="14" font-weight="900" fill="url(#gbGold)" text-anchor="middle">GB</text>
+  <text x="50" y="80" font-family="'Rajdhani', sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">GOVERNING BODY</text>
+</svg>

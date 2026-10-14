@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 70" width="120" height="70">
+  <defs>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a5568"/>
+      <stop offset="50%" stop-color="#2d3748"/>
+      <stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+  </defs>
+  <!-- Slide / Barrel -->
+  <rect x="25" y="16" width="70" height="18" rx="3" fill="url(#metal)" stroke="#00f0ff" stroke-width="1.5"/>
+  <rect x="18" y="22" width="10" height="8" rx="1" fill="#718096"/>
+  <!-- Sight -->
+  <rect x="88" y="12" width="4" height="4" fill="#00f0ff"/>
+  <rect x="30" y="13" width="3" height="3" fill="#00f0ff"/>
+  <!-- Grip / Handle -->
+  <path d="M 38,34 L 52,34 L 44,60 L 30,60 Z" fill="#2d3748" stroke="#4a5568" stroke-width="1.5"/>
+  <line x1="33" y1="42" x2="48" y2="42" stroke="#1a202c" stroke-width="1.5"/>
+  <line x1="32" y1="48" x2="46" y2="48" stroke="#1a202c" stroke-width="1.5"/>
+  <line x1="31" y1="54" x2="44" y2="54" stroke="#1a202c" stroke-width="1.5"/>
+  <!-- Trigger guard & trigger -->
+  <path d="M 50,34 C 54,40 50,45 44,45" fill="none" stroke="#718096" stroke-width="1.5"/>
+  <path d="M 47,38 L 45,41" stroke="#00f0ff" stroke-width="2"/>
+  <!-- Cyan power rail -->
+  <line x1="40" y1="25" x2="85" y2="25" stroke="#00f0ff" stroke-width="2" stroke-dasharray="6 3"/>
+</svg>
